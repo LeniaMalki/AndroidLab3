@@ -1,0 +1,19 @@
+• How the Preferences class is called?
+--> The preference class ic called via the onOptionsItemSelected() method whenever the button is
+pressed. A intent is then used to start the activity as follows:
+Intent i = new Intent(this, Preferences.class);
+
+• You may be notified that user credentials are not actually reset and that the notification is
+not received. How can this be done in the code?
+--> You can send out a message
+Toast.makeText(MainActivity.this, "Reset user name and password", Toast.LENGTH_LONG).show();
+
+
+• Implement exit function for the button3 to exit the application.
+• There are some decrypted functions. Some of them are due to the notion of Fragment.
+  o See http://developer.android.com/guide/components/fragments.html
+  o Explain how to redesign the app to work with fragment
+• Update the app icon, use any icon of your choice (see your notification icon change as well)
+• Give example of applications where such preferences are useful?
+• Is the preferences are saved in a persistent or volatile storage? In each case, explain where
+they are actually stored.

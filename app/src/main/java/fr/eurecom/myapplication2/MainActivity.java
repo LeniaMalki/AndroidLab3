@@ -88,8 +88,6 @@ public class MainActivity extends AppCompatActivity {
         edit.putString("username", null);
         edit.putString("password", null);
         edit.commit(); // Apply changes
-// A toast is a view containing a quick little message for the
-// user. We give a little feedback
         Toast.makeText(MainActivity.this, "Reset user name and password", Toast.LENGTH_LONG).show();
     }
 
