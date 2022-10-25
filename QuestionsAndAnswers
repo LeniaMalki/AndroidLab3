@@ -1,0 +1,11 @@
+• How the Preferences class is called?
+• You may be notified that user credentials are not actually reset and that the notification is
+not received. How can this be done in the code?
+• Implement exit function for the button3 to exit the application.
+• There are some decrypted functions. Some of them are due to the notion of Fragment.
+  o See http://developer.android.com/guide/components/fragments.html
+  o Explain how to redesign the app to work with fragment
+• Update the app icon, use any icon of your choice (see your notification icon change as well)
+• Give example of applications where such preferences are useful?
+• Is the preferences are saved in a persistent or volatile storage? In each case, explain where
+they are actually stored.
